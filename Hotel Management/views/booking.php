@@ -3,18 +3,22 @@
 ?>
 
 <style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+.grid-container 
+{
+  display: 					grid;
+  grid-template-columns: 	auto auto auto auto;
+  background-color: 		#eafffa;
+  padding: 					10px;
 }
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 5px;
-  font-size: 20px;
-  text-align: center;
+
+.grid-item 
+{
+  background-color: 		rgba(255, 255, 255, 0.8);
+  border: 					1px solid black;
+  padding: 					5px;
+  font-size: 				20px;
+  text-align: 				center;
+  border-radius: 			1px;
 }
 .booked
 {
@@ -26,7 +30,10 @@ section
 	margin: 2em auto;
 }
 </style>
-<br><br>
+
+<h4 class="ui horizontal divider header">
+    <i class="bar chart icon"></i>BOOK A ROOM
+</h4>
 <section>
 	<div class="grid-container">
 		<?php foreach($data as $room):?>
